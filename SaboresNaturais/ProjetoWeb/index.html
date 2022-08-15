@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Sabores Naturais</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+        <link rel="stylesheet" href="resources/css/style.css">
+        <script language="javascript" src="resources/js/produtos_destaque.js"></script>
+        <script language="javascript" src="resources/js/produtos.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <header>
+                        <div style="width: 100%;height: 250px;display: flex;">
+                            <img src="resources/images/sabores_logo.jpg" style="width: inherit;"/>            
+                        </div>
+                        <nav style="width: 100%; background-color: rgb(51, 255, 0); border-radius: 5px; height: 50px;">
+                            <div style="vertical-align: middle;">
+                                <div id="menu" style="float:left; padding-left: 10px; padding-top: 10px;">
+                                    <a href="index.html">Loja</a>
+                                    <a> | </a>
+                                    <a href="produtos.html">Produtos</a>
+                                    <a> | </a>
+                                    <a href="contato.html">Contato</a>
+                                </div>
+                                <div style="float:right;padding-right: 10px; padding-top: 0px;">
+                                    <a style="color: blue;"><u>Erico Guerino</u></a>&nbsp;|&nbsp;<a style="color: blue;"><u>logout</u></a>
+                                    <a href="carrinho.html">
+                                        <img src="resources/images/cesta-compras-icon.png" style="max-width: 50px;max-height: 50px;">
+                                    </a>                                    
+                                </div>
+                            </div>
+                        </nav>
+                    </header>
+
+                    <article>
+                        PRODUTOS EM DESTAQUE
+                        <div style="width:100%; border-radius:5px; max-height:300px; text-align:center;">
+                            <a href="#" role="button" data-slide="prev" onclick="javascript:previous();">
+                                <span aria-hidden="true"></span>
+                                <span>Anterior</span>
+                            </a>
+                            <img src="resources/images/produtos/1.png" onclick="javascript:carregarProduto('1');" id="produto_destaque" alt="First slide" class="1" style="max-height: inherit;">
+                            <a href="#" role="button" data-slide="next" onclick="javascript:next();">
+                                <span  aria-hidden="true"></span>
+                                <span>Próximo</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <footer style="width: 100%; background-color: rgb(51, 255, 0); border-radius: 5px; height: fit-content;">
+                        <p style="padding-left: 10px;font-family: Arial, Helvetica, sans-serif;font-size: 15px;">
+                            Empresa Sabores Naturais<br>
+                            Projeto para fins acadêmicos<br>
+                            <br>
+                            Projeto Integrado final de curso PUC-MG<br>
+                            <br>
+                            Desenvolvido por Érico Felício Gomes Guerino (Noro)<br>
+                            Contato: (41) 99251-1354<br>
+                        </p>
+                    </footer>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+    </body>
+</html>
